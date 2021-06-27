@@ -41,7 +41,8 @@ then test by heading over to:
 
 ### To run the unit and e2e test cases
 
-`npm run test`
+1. unit api test: `npm run test`
+2. e2e test: `npm run test:e2e`
 
 ### To have a look at the API documentation
 
