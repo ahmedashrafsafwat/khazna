@@ -1,0 +1,13 @@
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('2ce5ad30-d223-11eb-8f37-a943a0fa29b7', 'asd', 0, 'asd', '1234', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('378d7ee0-d262-11eb-b9b1-0152cd54331e', 'asd', 0, 'a22s2d', '1234', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('3e441070-d265-11eb-8980-039eebc4210d', 'asd', 0, 'a222231112122d', '$2b$10$WgnqReB27GBhUw4tZg/IDecjZZ4o0VDepFtqIO7HBei/vsxVRHg32', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('4b798d50-d261-11eb-8090-0f4d5d28a9c3', 'asd', 0, 'a2s2d', '1234', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('9f18bae0-d265-11eb-b2d7-891a87e1bf52', 'asd', 0, 'a22223111212asd@as.2d', '$2b$10$0cTw9aJih.kpA.O11vBpWeYeDj1ILIVJTNU.xQzepNJ1P0Dx4ZHU6', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('b1c7b140-d26b-11eb-886d-e193dd2d1933', 'asd', 10, 'a223111212asd@as2d.com', '$2b$10$VOQmxJ1qpn.GSenmKvZvheoUkEvWgwj0a8mHEKoVdUGW9o/ixlrri', 100);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('b29c1c70-d264-11eb-9672-5bcbbdbe407c', 'asd', 0, 'a2222d', '$2b$10$0Uko/FuhBy2rKw6lFEkwcePorqu.rO3g8rSqGIEFj5IGMLt27YDyK', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('b3a02980-d265-11eb-b11e-bdabf58dff6e', 'asd', 10, 'a223111212asd@as.2d', '$2b$10$gSsC3v6piC5SBALGwrWFQOwxoqP6w/MlmkVbkpcoSB3DdVXsqbiWW', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('c199c850-d654-11eb-b588-05ec94e83ff9', 'test', 0, 'asd@asd.com', '$2b$10$cKtqO6klpHzWa08fA7Ork.jPB0zY4i0UNY2EQAYo3Dnou9aknYSEq', 50);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('cdd6a190-d264-11eb-8b9d-a3ae8c2dad02', 'asd', 0, 'a222232d', '$2b$10$gc3Az.c86uQfaEbyoKv05eYlkkNkEJ4.50lgWLYZxzkUKyea2riky', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('df9ddec0-d264-11eb-beeb-3dceab8ff666', 'asd', 0, 'a22223112d', '$2b$10$NB50TFz/PPvyfq6nrwhMq.KhMNYCxXlofEUQsUNBZr1VVqxRDAEEK', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('ed99b8e0-d260-11eb-8072-dd035258ef28', 'asd', 0, 'as2d', '1234', 0);
+INSERT INTO khazna.users (id, name, balance, email, password, max_balance) VALUES ('eee63940-d264-11eb-a61b-bbf94f250bdf', 'asd', 0, 'a2222311122d', '$2b$10$ag0qjwZpyHhmROjBXUDbre4SxIGmjLr5XPoGzkk7M.K8FNC60cwcG', 0);

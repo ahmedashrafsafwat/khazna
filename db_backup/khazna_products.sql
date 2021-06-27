@@ -1,0 +1,15 @@
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('03d1cfd0-d284-11eb-aacc-034f92788fcb', 'product1', 'brand1', 'category1', 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('137123f0-d284-11eb-a2a8-e7a1ff8f1588', 'product1', 'brand1', 'category1', 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('14dd48b0-d656-11eb-b8d6-e975a2bf1a28', 'test', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('398329b0-d65a-11eb-ae36-9b1321849d44', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('4b2261f0-d659-11eb-8b28-8b85254c1126', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('8ded4ce0-d283-11eb-8d03-bf1a84e9f246', 'product1', 'brand1', null, 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('988b1fe0-d659-11eb-9716-4f90c5c8c892', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('a93e0a10-d65d-11eb-9fb7-9fe84b167884', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('b9deec80-d659-11eb-b1a5-2d9e09f2ac74', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('bf240650-d283-11eb-8bda-7ddf4260772f', 'product1', 'brand1', 'category1', 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('c6ffc8e0-d284-11eb-b2db-61ac2dd23848', 'product1', 'brand1', 'category1', 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('d73129e0-d660-11eb-b01d-bf7236fe208d', 'test', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('d9a12ee0-d283-11eb-abce-9ddd9d2ff349', 'product1', 'brand1', 'category1', 10);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('f3c85d00-d659-11eb-97c3-476c9396e294', 'produc1', 'brand', 'category1', 20);
+INSERT INTO khazna.products (id, name, brand, category, price) VALUES ('f7909ad0-d283-11eb-852d-db015f00d4ab', 'product1', 'brand1', 'category1', 10);

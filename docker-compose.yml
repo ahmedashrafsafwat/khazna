@@ -1,0 +1,31 @@
+version: '3.8'
+
+services: 
+  mysqldb:
+    build: ./services/db.service
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    env_file: ./.env
+    ports:
+      - $MYSQL_LOCAL_PORT:$MYSQL_DOCKER_PORT
+    container_name: dbcontainer
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: node-mysql-app
+    env_file: ./.env
+    container_name: nodebackend
+    ports:
+      - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
+      - $USER_SERVICE_PORT:$USER_SERVICE_PORT
+      - $PRODUCT_SERVICE_PORT:$PRODUCT_SERVICE_PORT
+      - $REQUEST_SERVICE_PORT:$REQUEST_SERVICE_PORT
+    volumes: 
+      - ./:/src
+      - /node_modules
+    depends_on:
+      - mysqldb
+volumes: 
+  db-config:
+  db-data:

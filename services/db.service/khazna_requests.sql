@@ -1,0 +1,8 @@
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('0f652230-d661-11eb-82a6-39fb5a7fa45c', '0f130a90-d661-11eb-82a6-39fb5a7fa45c', 'canceled', 20, '0f50afd0-d661-11eb-82a6-39fb5a7fa45c');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('1c612260-d295-11eb-b7bc-99e010f56947', 'b1c7b140-d26b-11eb-886d-e193dd2d1933', 'canceled', 10, '03d1cfd0-d284-11eb-aacc-034f92788fcb');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('20447060-d661-11eb-b94c-95127ffd03f6', '1ffce010-d661-11eb-b94c-95127ffd03f6', 'canceled', 20, '202d8d00-d661-11eb-b94c-95127ffd03f6');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('41d1a330-d295-11eb-b7bc-99e010f56947', 'b1c7b140-d26b-11eb-886d-e193dd2d1933', 'new', 10, '03d1cfd0-d284-11eb-aacc-034f92788fcb');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('4d17c950-d659-11eb-8b28-8b85254c1126', '288c9f70-d659-11eb-99fb-cf002faa50a9', 'new', 20, '4b2261f0-d659-11eb-8b28-8b85254c1126');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('62d626c0-d658-11eb-8807-fbd43e3eac7e', 'c199c850-d654-11eb-b588-05ec94e83ff9', 'canceled', 10, 'bf240650-d283-11eb-8bda-7ddf4260772f');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('bcb073a0-d296-11eb-bb04-17bb947737bb', 'b1c7b140-d26b-11eb-886d-e193dd2d1933', 'new', 10, '03d1cfd0-d284-11eb-aacc-034f92788fcb');
+INSERT INTO khazna.requests (id, userid, status, price, productid) VALUES ('f5ec9860-d660-11eb-8f0b-539d7956792d', 'f5a09b40-d660-11eb-8f0b-539d7956792d', 'new', 20, 'f5d45570-d660-11eb-8f0b-539d7956792d');
