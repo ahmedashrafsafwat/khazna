@@ -25,9 +25,9 @@ var startServer = function () {
  *  runs all containers at the same time, we need to wait till the mysqldb container initializes
  *  which takes about 15 seconds but for making sure it is up we have delayed the connection time to 1 min
  *  - source: https://hub.docker.com/_/mysql/
- *  but if the RUN_DOCKER env variable is not true then connect to the database immeditly 
+ *  but if the USE_DOCKER env variable is not true then connect to the database immeditly 
  */
-if (process.env.RUN_DOCKER == 1) {
+if (process.env.USE_DOCKER == 1) {
     setTimeout(() => {
         console.log('starting server')
         startServer()

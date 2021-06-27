@@ -8,7 +8,8 @@ the `khazna_init.sql` file has all the tables create sql statments, also the res
 
 These data can be used for testing, it is not fully accurate and some articles may have some empty author_ids that doesn't exist but still it works fine.
 
-you can also change in the environment variables `.env` file the `USE_HEROKU_CONFIG` key from 1 to 0 to use the local mysql database if you want to connect to the production heroku database then set the value at 1
+##IMOBRTANT:
+ If you want to run the application using npm please set in environment variables `.env` file the `USE_DOCKER` key to 0, but if you want to use docker containers then set the value to 1
 
 ### To run this project you can run:
 
@@ -18,11 +19,11 @@ run `npm install`
 
 run `npm run start` or `nodemon start` (if you have nodemon installed in your development enviornment)
 
-2. the app is deployed on heroku server at link: `https://trufla2021backend.herokuapp.com`
+then test by heading over to:
 
-so for example you can use it as follows on your favoriate browser for testing `https://trufla2021backend.herokuapp.com/article/all`
+   `http://localhost:3000/register`
 
-3. using Docker by running this commands:
+2. using Docker by running this commands:
 
    `docker-compose build`
 
@@ -32,7 +33,7 @@ so for example you can use it as follows on your favoriate browser for testing `
 
    then test by heading over to:
 
-   `http://localhost:3000/signup`
+   `http://localhost:3000/register`
 
    or
 

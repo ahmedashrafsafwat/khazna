@@ -20,7 +20,6 @@ require('../config/passport')(passport); // pass passport for configuration
 
 
 // connect to db
-// require('../config/sequelize');
 require('../models');
 
 

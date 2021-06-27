@@ -1,7 +1,7 @@
 
 const env = process.env;
-const host = env.RUN_DOCKER == 1 ? env.DB_DOCKER_HOST: env.DB_HOST
-const port = env.RUN_DOCKER == 1 ? env.MYSQL_LOCAL_PORT : env.DB_PORT
+const host = env.USE_DOCKER == 1 ? env.DB_DOCKER_HOST: env.DB_HOST
+const port = env.USE_DOCKER == 1 ? env.MYSQL_LOCAL_PORT : env.DB_PORT
 const x = {
   development: {
     username:  env.DB_USER,
