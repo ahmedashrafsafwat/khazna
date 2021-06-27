@@ -2,7 +2,7 @@
     "definition": {
       "openapi": "3.0.0",
       "info": {
-        "title": "Trufla Test API Documentation",
+        "title": "Khazna API Documentation",
         "version": "0.1.0",
         "description":
           "This is a simple CRUD API application made with Express and documented with Swagger",
@@ -21,5 +21,5 @@
         }
       ]
     },
-    "apis": ["./routes/article.js","./routes/user.js"]
+    "apis": ["./routes/user.js","./routes/product.js","./routes/request.js"]
   }
